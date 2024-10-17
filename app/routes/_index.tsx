@@ -92,7 +92,7 @@ export default function Home() {
                     </HStack>
                     {activeSkill === "Python" && (
                       <Text mt={2} whiteSpace="normal" wordBreak="break-word">
-                        Pythonは、データサイエンスやAI、Web開発に幅広く使われるプログラミング言語です。
+                        Pytorch FastAPI
                       </Text>
                     )}
                   </Box>
@@ -122,7 +122,7 @@ export default function Home() {
                     </HStack>
                     {activeSkill === "TypeScript" && (
                       <Text mt={2} whiteSpace="normal" wordBreak="break-word">
-                        TypeScriptはJavaScriptに型安全性を追加した言語で、スケーラブルなWebアプリケーション開発に最適です。
+                        React ChakraUI
                       </Text>
                     )}
                   </Box>
@@ -152,7 +152,7 @@ export default function Home() {
                     </HStack>
                     {activeSkill === "C#" && (
                       <Text mt={2} whiteSpace="normal" wordBreak="break-word">
-                        C#は、マイクロソフトによって開発されたプログラミング言語で、ゲーム開発やエンタープライズアプリケーションに使用されますすすすすすすすす。Unityというゲームエンジンで最も使用されている言語です。
+                        Unity
                       </Text>
                     )}
                   </Box>

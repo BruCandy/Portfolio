@@ -47,12 +47,5 @@
     "imageUrl": "/images/output.jpg",
     "videoUrl": "/videos/work1.mp4",
     "pdfUrl": "/slides/work1.pdf"
-  },
-  {
-    "id": "work8",
-    "name": "realtime-objectdetection-app8",
-    "imageUrl": "/images/output.jpg",
-    "videoUrl": "/videos/work1.mp4",
-    "pdfUrl": "/slides/work1.pdf"
   }
 ]

@@ -16,7 +16,7 @@ export default function Header() {
           fontWeight="bold"
           _hover={{ cursor: "pointer" }}
         >
-          <Link to="/">My Portfolio</Link>
+          <Link to="/">My Portfolio  ----Under Construction</Link>
         </Text>
       </Flex>
     </>

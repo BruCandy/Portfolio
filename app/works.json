@@ -1,56 +1,56 @@
 [
   {
     "id": "work1",
-    "name": "realtime-objectdetection-app",
+    "name": "realtime-objectdetection-app1",
     "imageUrl": "/images/output.jpg",
     "videoUrl": "/videos/work1.mp4",
     "pdfUrl": "/slides/work1.pdf"
   },
   {
     "id": "work2",
-    "name": "realtime-objectdetection-app",
+    "name": "realtime-objectdetection-app2",
     "imageUrl": "/images/output.jpg",
     "videoUrl": "/videos/work1.mp4",
     "pdfUrl": "/slides/work1.pdf"
   },
   {
     "id": "work3",
-    "name": "realtime-objectdetection-app",
+    "name": "realtime-objectdetection-app3",
     "imageUrl": "/images/output.jpg",
     "videoUrl": "/videos/work1.mp4",
     "pdfUrl": "/slides/work1.pdf"
   },
   {
     "id": "work4",
-    "name": "realtime-objectdetection-app",
+    "name": "realtime-objectdetection-app4",
     "imageUrl": "/images/output.jpg",
     "videoUrl": "/videos/work1.mp4",
     "pdfUrl": "/slides/work1.pdf"
   },
   {
     "id": "work5",
-    "name": "realtime-objectdetection-app",
+    "name": "realtime-objectdetection-app5",
     "imageUrl": "/images/output.jpg",
     "videoUrl": "/videos/work1.mp4",
     "pdfUrl": "/slides/work1.pdf"
   },
   {
     "id": "work6",
-    "name": "realtime-objectdetection-app",
+    "name": "realtime-objectdetection-app6",
     "imageUrl": "/images/output.jpg",
     "videoUrl": "/videos/work1.mp4",
     "pdfUrl": "/slides/work1.pdf"
   },
   {
     "id": "work7",
-    "name": "realtime-objectdetection-app",
+    "name": "realtime-objectdetection-app7",
     "imageUrl": "/images/output.jpg",
     "videoUrl": "/videos/work1.mp4",
     "pdfUrl": "/slides/work1.pdf"
   },
   {
     "id": "work8",
-    "name": "realtime-objectdetection-app",
+    "name": "realtime-objectdetection-app8",
     "imageUrl": "/images/output.jpg",
     "videoUrl": "/videos/work1.mp4",
     "pdfUrl": "/slides/work1.pdf"

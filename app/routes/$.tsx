@@ -1,6 +1,4 @@
-import { Flex, Heading, Text, useDisclosure, VStack } from "@chakra-ui/react";
-import { Link, useNavigate } from "@remix-run/react";
-import { useCallback } from "react";
+import { Text, VStack } from "@chakra-ui/react";
 
 export default function Page404() {
   return (

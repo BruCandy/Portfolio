@@ -1,22 +1,27 @@
 import { HStack, Text, VStack } from "@chakra-ui/react";
 import { LoaderFunction } from "@remix-run/node";
-import { useLoaderData, useNavigate, useParams } from "@remix-run/react";
+import { useLoaderData } from "@remix-run/react";
 import { TypeWork } from "~/type/TypeWork";
 import path from "path";
 import { promises as fs } from "fs";
 import { motion } from "framer-motion";
 
 export let loader: LoaderFunction = async ({ params }) => {
-  const filePath = path.join(process.cwd(), "public/works.json");
-  const fileData = await fs.readFile(filePath, "utf-8");
-  const projectData: TypeWork[] = JSON.parse(fileData);
+  const filePath = path.join(process.cwd(), "app", "works.json");
 
-  const work = projectData.find((item) => item.id === params.id);
-  if (!work) {
-    throw new Response("Project Not Found", { status: 404 });
+  try {
+    const fileData = await fs.readFile(filePath, "utf-8");
+    const projectData = JSON.parse(fileData);
+
+    const work = projectData.find((item: any) => item.id === params.id);
+    if (!work) {
+      throw new Response("Project Not Found", { status: 404 });
+    }
+
+    return work;
+  } catch (err) {
+    throw new Response("Internal Server Error", { status: 500 });
   }
-
-  return work;
 };
 
 const MotionBox = motion.create(motion.div);

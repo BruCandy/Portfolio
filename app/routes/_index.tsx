@@ -1,16 +1,7 @@
-import {
-  Box,
-  chakra,
-  Grid,
-  HStack,
-  Icon,
-  Stack,
-  Text,
-  VStack,
-} from "@chakra-ui/react";
+import { Box, Grid, HStack, Icon, Stack, Text, VStack } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import { WorkCard } from "~/components/cards/WorkCard";
-import works from "public/works.json";
+import works from "app/works.json";
 import { TypeWork } from "~/type/TypeWork";
 import { useState } from "react";
 import { ChevronDownIcon } from "@chakra-ui/icons";

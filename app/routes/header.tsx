@@ -13,10 +13,11 @@ export default function Header() {
       >
         <Text
           fontFamily='"Times New Roman", serif'
-          fontSize="4xl"
+          fontSize="6xl"
           fontWeight="bold"
+          _hover={{ cursor: "pointer" }}
         >
-          My Portfolio
+          <Link to="/">My Portfolio</Link>
         </Text>
       </Flex>
     </>

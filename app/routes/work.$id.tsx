@@ -1,4 +1,4 @@
-import { HStack, Text, VStack } from "@chakra-ui/react";
+import { Box, HStack, Text, VStack } from "@chakra-ui/react";
 import { LoaderFunction } from "@remix-run/node";
 import { useLoaderData } from "@remix-run/react";
 import { TypeWork } from "~/type/TypeWork";
@@ -51,19 +51,40 @@ export default function ProjectPage() {
         transition={{ duration: 0.5, delay: 0.5 }}
       >
         <HStack>
-          <VStack>
-            <Text
-              fontFamily='"Times New Roman", serif'
-              fontSize="2xl"
-              fontWeight="bold"
+          {projectData.videoUrl === "動画なし" ? (
+            <Box
+              w="600px"
+              h="400px"
+              bg="white"
+              borderRadius="10px"
+              shadow="md"
+              p={4}
             >
-              Video
-            </Text>
-            <video controls width="600" height="400">
-              <source src={projectData.videoUrl} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </VStack>
+              <Text
+                fontFamily='"Times New Roman", serif'
+                fontSize="xl"
+                fontWeight="bold"
+              >
+                動画なし
+              </Text>
+            </Box>
+          ) : (
+            <VStack>
+              (
+              <Text
+                fontFamily='"Times New Roman", serif'
+                fontSize="2xl"
+                fontWeight="bold"
+              >
+                Video
+              </Text>
+              <video controls width="600" height="400">
+                <source src={projectData.videoUrl} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              )
+            </VStack>
+          )}
           <VStack>
             <Text
               fontFamily='"Times New Roman", serif'

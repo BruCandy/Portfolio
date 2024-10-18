@@ -83,7 +83,7 @@ export default function Home() {
                     </HStack>
                     {activeSkill === "Python" && (
                       <Text mt={2} whiteSpace="normal" wordBreak="break-word">
-                        Pytorch FastAPI
+                        Pytorch、TensolFlow、FastAPIの使用経験があります。2023年の秋から活用してきました。
                       </Text>
                     )}
                   </Box>
@@ -113,7 +113,7 @@ export default function Home() {
                     </HStack>
                     {activeSkill === "TypeScript" && (
                       <Text mt={2} whiteSpace="normal" wordBreak="break-word">
-                        React ChakraUI
+                        Remix、ChakraUIの使用経験があります。2024年の6月から活用してきました。
                       </Text>
                     )}
                   </Box>
@@ -143,7 +143,7 @@ export default function Home() {
                     </HStack>
                     {activeSkill === "C#" && (
                       <Text mt={2} whiteSpace="normal" wordBreak="break-word">
-                        Unity
+                        Unityで使用経験があります。2023年の春からゲームを作ることを目標に基本文法を学び始めましたが、挫折をして、2024年の夏から機械学習での利用を目的に再び活用を始めました。
                       </Text>
                     )}
                   </Box>

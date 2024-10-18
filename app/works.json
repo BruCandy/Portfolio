@@ -1,51 +1,44 @@
 [
   {
-    "id": "work1",
-    "name": "realtime-objectdetection-app1",
+    "id": "work6",
+    "name": "Realtime Object Detection App",
     "imageUrl": "/images/output.jpg",
-    "videoUrl": "/videos/work1.mp4",
-    "pdfUrl": "/slides/work1.pdf"
-  },
-  {
-    "id": "work2",
-    "name": "realtime-objectdetection-app2",
-    "imageUrl": "/images/output.jpg",
-    "videoUrl": "/videos/work1.mp4",
-    "pdfUrl": "/slides/work1.pdf"
-  },
-  {
-    "id": "work3",
-    "name": "realtime-objectdetection-app3",
-    "imageUrl": "/images/output.jpg",
-    "videoUrl": "/videos/work1.mp4",
-    "pdfUrl": "/slides/work1.pdf"
-  },
-  {
-    "id": "work4",
-    "name": "realtime-objectdetection-app4",
-    "imageUrl": "/images/output.jpg",
-    "videoUrl": "/videos/work1.mp4",
-    "pdfUrl": "/slides/work1.pdf"
+    "videoUrl": "/videos/work6.mp4",
+    "pdfUrl": "/slides/work6.pdf"
   },
   {
     "id": "work5",
-    "name": "realtime-objectdetection-app5",
+    "name": "FOMM",
     "imageUrl": "/images/output.jpg",
-    "videoUrl": "/videos/work1.mp4",
-    "pdfUrl": "/slides/work1.pdf"
+    "videoUrl": "動画なし",
+    "pdfUrl": "/slides/work5.pdf"
   },
   {
-    "id": "work6",
-    "name": "realtime-objectdetection-app6",
+    "id": "work4",
+    "name": "Objectdetection App",
     "imageUrl": "/images/output.jpg",
-    "videoUrl": "/videos/work1.mp4",
-    "pdfUrl": "/slides/work1.pdf"
+    "videoUrl": "動画なし",
+    "pdfUrl": "/slides/work4.pdf"
   },
   {
-    "id": "work7",
-    "name": "realtime-objectdetection-app7",
+    "id": "work3",
+    "name": "Todo App",
     "imageUrl": "/images/output.jpg",
-    "videoUrl": "/videos/work1.mp4",
+    "videoUrl": "動画なし",
+    "pdfUrl": "/slides/work3.pdf"
+  },
+  {
+    "id": "work2",
+    "name": "SSD",
+    "imageUrl": "/images/output.jpg",
+    "videoUrl": "動画なし",
+    "pdfUrl": "/slides/work2.pdf"
+  },
+  {
+    "id": "work1",
+    "name": "App for Calculating Least Squares",
+    "imageUrl": "/images/output.jpg",
+    "videoUrl": "動画なし",
     "pdfUrl": "/slides/work1.pdf"
   }
 ]

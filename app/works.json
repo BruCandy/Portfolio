@@ -1,5 +1,12 @@
 [
   {
+    "id": "work7",
+    "name": "My Portfolio",
+    "imageUrl": "/images/work7.png",
+    "videoUrl": "/videos/work7.mp4",
+    "pdfUrl": "/slides/work7.pdf"
+  },
+  {
     "id": "work6",
     "name": "Realtime Object Detection App",
     "imageUrl": "/images/work6.png",

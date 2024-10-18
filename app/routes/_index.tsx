@@ -143,7 +143,7 @@ export default function Home() {
                     </HStack>
                     {activeSkill === "C#" && (
                       <Text mt={2} whiteSpace="normal" wordBreak="break-word">
-                        Unityで使用経験があります。2023年の春からゲームを作ることを目標に基本文法を学び始めましたが、挫折をして、2024年の夏から機械学習での利用を目的に再び活用を始めました。
+                        Unityで使用経験があります。2023年の春からゲームを作ることを目標に基本文法を学び始めましたが、挫折をして、2024年の夏から機械学習でUnityの利用を目的に再び活用を始めました。
                       </Text>
                     )}
                   </Box>

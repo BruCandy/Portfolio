@@ -51,40 +51,41 @@ export default function ProjectPage() {
         transition={{ duration: 0.5, delay: 0.5 }}
       >
         <HStack>
-          {projectData.videoUrl === "動画なし" ? (
-            <Box
-              w="600px"
-              h="400px"
-              bg="white"
-              borderRadius="10px"
-              shadow="md"
-              p={4}
+          <VStack>
+            <Text
+              fontFamily='"Times New Roman", serif'
+              fontSize="2xl"
+              fontWeight="bold"
             >
-              <Text
-                fontFamily='"Times New Roman", serif'
-                fontSize="xl"
-                fontWeight="bold"
+              Video
+            </Text>
+            {projectData.videoUrl === "動画なし" ? (
+              <Box
+                w="600px"
+                h="400px"
+                bg="white"
+                borderRadius="10px"
+                shadow="md"
+                p={4}
+                display="flex"
+                alignItems="center"
+                justifyContent="center"
               >
-                動画なし
-              </Text>
-            </Box>
-          ) : (
-            <VStack>
-              (
-              <Text
-                fontFamily='"Times New Roman", serif'
-                fontSize="2xl"
-                fontWeight="bold"
-              >
-                Video
-              </Text>
+                <Text
+                  fontFamily='"Times New Roman", serif'
+                  fontSize="5xl"
+                  fontWeight="bold"
+                >
+                  動画なし
+                </Text>
+              </Box>
+            ) : (
               <video controls width="600" height="400">
                 <source src={projectData.videoUrl} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
-              )
-            </VStack>
-          )}
+            )}
+          </VStack>
           <VStack>
             <Text
               fontFamily='"Times New Roman", serif'

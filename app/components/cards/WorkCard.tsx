@@ -31,9 +31,13 @@ export const WorkCard: FC<Props> = memo((props) => {
       <VStack>
         <Text
           fontFamily='"Times New Roman", serif'
-          fontSize="2xl"
+          fontSize={"lg"}
           fontWeight="bold"
           mt="2"
+          textAlign="center"
+          noOfLines={2}
+          wordBreak="break-word"
+          overflow="hidden"
         >
           {name}
         </Text>
